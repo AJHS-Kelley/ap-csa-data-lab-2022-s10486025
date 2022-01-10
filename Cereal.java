@@ -1,4 +1,4 @@
-// Ty Whitecotten 01/10/22, AP Data Lab 2022, v0.3
+// Ty Whitecotten 01/10/22, AP Data Lab 2022, v0.4
 
 public class Cereal 
 {
@@ -27,4 +27,11 @@ public class Cereal
 
 
 }
+ //Getters
+
+ public String getName()
+ {
+     return namel;
+ }
+
 
