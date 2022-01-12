@@ -1,4 +1,4 @@
-// Ty Whitecotten 01/10/22, AP Data Lab 2022, v0.4
+// Ty Whitecotten 01/10/22, AP Data Lab 2022, v0.5
 
 public class Cereal 
 {
@@ -34,4 +34,25 @@ public class Cereal
      return namel;
  }
 
+public double getFiber()
+{
+    return fiber;
+}
 
+public double getCups()
+{
+    return cups; 
+}
+
+public double getFPC()
+{
+    return FPC;
+}
+
+
+
+//toString method
+public STring toString()
+{
+    return "Cereal: " + name + "Fiber Content: " + fiber + "Serving Size (in cups): " + cups + "Fiber Per Cup: " + FPC;
+}
